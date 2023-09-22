@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+section{
+    margin: 20px auto;
+    padding: 10px;
+    background-color: aliceblue;
+    width:285px;
+    height: 350px;
+}
+.display{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    text-align: right;
+    font: normal  23px 'Arial,Helvetica, sans-serif';
+    padding: 10px;
+}
+.btn{
+    width: 64px;
+    height: 40px;
+    background-color:rgb(191, 180, 180) ;
+    border: none;
+    font: normal  bolder 23px 'Arial,Helvetica, sans-serif';
+}
+.btn:hover{
+    background-color: rgb(137, 134, 134) ;
+    cursor: pointer;
+}
+.btn-result{
+    background-color: rgb(99, 158, 221);
+}
+.btn-result:hover{
+    background-color: rgb(67, 145, 228);
+}
